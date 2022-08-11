@@ -1,0 +1,25 @@
+body {
+    max-height: auto;
+    max-width: auto;
+    background-image: url("fondo.png");
+    background-size: 1900px;
+    background-size: 2556px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+max-height: auto;
+max-width: auto;
+background: #eee;
+}
+.h-custom {
+max-height: auto;
+}
+.h-custom {
+max-height: auto;
+}

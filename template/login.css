@@ -1,0 +1,25 @@
+body {
+    height: 800px;
+    background-image: url("fondo.png");
+    background-size: 1981px;
+    background-size: 2556px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
